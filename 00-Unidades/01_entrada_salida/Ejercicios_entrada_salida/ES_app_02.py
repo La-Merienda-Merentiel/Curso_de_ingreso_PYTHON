@@ -27,7 +27,10 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        # descripcion_producto = "Coca Cola" # Asignacion a una variable
+
+        descripcion_producto = prompt("Datos" , "Ingrese dato del producto")
+        alert("Descripcion" , descripcion_producto)
         
         
     
